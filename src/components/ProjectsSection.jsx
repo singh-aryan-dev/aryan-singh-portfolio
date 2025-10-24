@@ -6,7 +6,7 @@ const projects = [
     title: "Travel Advisor ",
     description:
       "A location-based travel app built with React and Google Maps API, featuring real-time filtering and geolocation services.",
-    image: "/projects/project1.png",
+    image: "#",
     tags: ["React", "RESTful API"],
     demoUrl: "#",
     githubUrl: "#",
@@ -16,7 +16,7 @@ const projects = [
     title: "Tomato ",
     description:
       "Full-featured food delivery interface with React and modular architecture.",
-    image: "/projects/project2.png",
+    image: "#",
     tags: ["React"],
     demoUrl: "#",
     githubUrl: "#",
@@ -26,7 +26,7 @@ const projects = [
     title: "Portfolio",
     description:
       "Modern, responsive developer portfolio built with React and Tailwind CSS.",
-    image: "/projects/project3.png",
+    image: "#",
     tags: ["React", "TailwindCSS"],
     demoUrl: "#",
     githubUrl: "#",
@@ -57,6 +57,7 @@ export const ProjectsSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
+                  onError={(e) => (e.target.style.display = "none")}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
