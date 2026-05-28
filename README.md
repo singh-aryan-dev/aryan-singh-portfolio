@@ -14,7 +14,7 @@ This is my personal developer portfolio — a clean, fast, single-page applicati
 
 ## ✨ Features
 
-- 👤 **About Me Section** — A personal introduction and background as a web developer
+- 👨‍💻 **About Me Section** — A personal introduction and background as a web developer
 - 🛠️ **Skills Showcase** — A visual display of technical skills and tools
 - 💼 **Projects Gallery** — Highlighted projects with descriptions and live/repo links
 - 📬 **Contact Section** — Easy ways to get in touch or connect
@@ -47,7 +47,7 @@ This is my personal developer portfolio — a clean, fast, single-page applicati
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/singh-aryan-dev/portfolio.git
    cd portfolio
    ```
 
